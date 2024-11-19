@@ -9,7 +9,7 @@ const screen = document.getElementById('screen')
         }
         return color
     };
-    
-    btn.addEventListener("click", () => {
+
+    btn.addEventListener("onClick", () => {
         screen.style.backgroundColor = RandomColor()
     })
